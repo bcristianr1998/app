@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  serverUrl: 'http://localhost:1337/api',
+  serverUrl: 'http://157.245.247.106/api',
   appUrl: 'https://trynearme.app',
   appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
   appId: 'myAppId',

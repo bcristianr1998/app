@@ -7,7 +7,7 @@ export const environment = {
   fbId: 'YOUR_FB_ID',
   googleMapsApiKey: 'YOUR_GOOGLE_MAPS_API_KEY',
   androidHeaderColor: '#d82c6b',
-  defaultUnit: 'mi',
+  defaultUnit: 'km',
   defaultLang: 'en',
   googleClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com',
   stripePublicKey: 'YOUR_STRIPE_PUBLIC_KEY',
