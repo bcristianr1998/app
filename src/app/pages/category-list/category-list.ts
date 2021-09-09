@@ -66,7 +66,7 @@ export class CategoryListPage extends BasePage {
       this.loadData();
     }
 
-    const title = await this.getTrans('EXPLORE');
+    const title = await this.getTrans('Multimax - Explore');
     this.setPageTitle(title);
 
     this.setMetaTags({

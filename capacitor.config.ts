@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.quanlabs.nearme5',
-  appName: 'Nearme',
+  appName: 'Multimax',
   webDir: 'www',
   bundledWebRuntime: false,
   plugins: {

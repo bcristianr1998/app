@@ -74,7 +74,7 @@ export class PostListPage extends BasePage {
       this.showLoadingView({ showOverlay: false });
       this.loadData();
     }
-    const title = await this.getTrans('POSTS');
+    const title = await this.getTrans('Multimax - Post');
     this.setPageTitle(title);
 
     this.setMetaTags({

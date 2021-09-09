@@ -52,7 +52,7 @@ export class ProfilePage extends BasePage implements OnInit {
 
     this.user = User.getCurrent();
 
-    const title = await this.getTrans('PROFILE');
+    const title = await this.getTrans('Multimax - Profile');
     this.setPageTitle(title);
 
     this.setMetaTags({

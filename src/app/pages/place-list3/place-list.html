@@ -9,11 +9,9 @@
         [placeholder]="'ENTER_LOCATION' | translate" inputmode="search" type="search"></ion-searchbar>
     </div>
     <ion-buttons slot="end">
-      <!-- Eliminar el icono de mapa -->
       <ion-button strong (click)="onViewMapButtonTouched()">
         <ion-icon slot="icon-only" name="map-outline"></ion-icon>
       </ion-button>
-      <!-- Hasta aca -->
       <ion-button (click)="onPresentFilterModal()">
         <ion-icon slot="icon-only" name="funnel-outline"></ion-icon>
       </ion-button>
@@ -29,7 +27,7 @@
 
   <ion-fab vertical="bottom" horizontal="center" slot="fixed" [hidden]="isLoadingViewVisible || isErrorViewVisible">
     <ion-button #ionFabButton shape="round" strong color="secondary" [routerLink]="['../places/add']">
-
+      {{ 'ADD_PLACE' | translate }}
       <ion-icon slot="start" name="add"></ion-icon>
     </ion-button>
   </ion-fab>
@@ -96,8 +94,7 @@
         <ion-row [@staggerIn]="places.length" *ngIf="isContentViewVisible">
           <ion-col size-xs="6" size-sm="6" size-md="6" size-lg="4" *ngFor="let place of places">
             <app-place-card [routerLink]="['./' + place.id + '/' + place.slug]" [place]="place"
-            >
-              <!-- Eliminar [extraParams]="{ location: location, unit: preference.unit }" para quitar las millas -->
+              [extraParams]="{ location: location, unit: preference.unit }">
             </app-place-card>
           </ion-col>
         </ion-row>

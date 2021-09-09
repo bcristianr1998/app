@@ -63,7 +63,7 @@ export class HomePage extends BasePage {
   }
 
   async ionViewDidEnter() {
-    const title = await this.getTrans('APP_NAME');
+    const title = await this.getTrans('Multimax - Home');
     this.setPageTitle(title);
 
     this.setMetaTags({

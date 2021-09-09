@@ -25,6 +25,14 @@ const routes: Routes = [
   {
     path: 'places/:id/:slug',
     loadChildren: () => import('./pages/place-detail/place-detail.module').then(m => m.PlaceDetailPageModule)
+  },
+  {
+    path: 'stores',
+    loadChildren: () => import('./pages/place-list2/place-list2.module').then( m => m.PlaceList2PageModule)
+  },
+  {
+    path: 'stores2',
+    loadChildren: () => import('./pages/place-list3/place-list.module').then( m => m.PlaceListPageModule)
   }
 ];
 

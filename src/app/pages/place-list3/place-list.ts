@@ -228,7 +228,7 @@ export class PlaceListPage extends BasePage {
       this.updateSearchBarValue(this.params.address);
     }
 
-    const title = await this.getTrans('Multimax - Products');
+    const title = await this.getTrans('PLACES');
     this.setPageTitle(title);
 
     this.setMetaTags({
