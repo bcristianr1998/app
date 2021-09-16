@@ -1,9 +1,9 @@
 export const environment = {
   production: false,
-  serverUrl: 'http://157.245.247.106/api',
+  serverUrl: 'http://44.199.34.148:5000/api',
   appUrl: 'https://trynearme.app',
   appImageUrl: 'https://trynearme.app/assets/img/nearme.png',
-  appId: 'myAppId',
+  appId: 'Zf4RIzA3SZ',
   fbId: 'YOUR_FB_ID',
   googleMapsApiKey: 'AIzaSyBjRHrZruEBrsVJ5GrbhuVUCMdJc_unZCU',
   androidHeaderColor: '#d82c6b',
